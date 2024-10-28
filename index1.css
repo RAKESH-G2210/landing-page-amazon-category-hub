@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://wallpapercave.com/wp/wp3469892.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(35, 47, 62, 0.85);
+    color: white;
+  }
+  
+  header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .amazon-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Sign-In Button */
+  .signin {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+  }
+  
+  .signin button {
+    padding: 12px 30px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signin button:hover {
+    background-color: #F1EB9C;
+    transform: translateY(-3px);
+  }
+  
+  /* Category Buttons */
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+  }
+  
+  .categories button {
+    padding: 12px 25px;
+    background-color: #e47911;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .categories button:hover {
+    background-color: #d1650e;
+    transform: translateY(-3px);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(35, 47, 62, 0.85);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
